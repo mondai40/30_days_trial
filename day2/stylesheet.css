@@ -4,18 +4,21 @@ body {
 
 li {
 	list-style: none;
-	float: left;
-	padding: 33px 20px;
 }
 
 .header {
-	background-color: yellow;
+	background-color: #27c0c9;
+	color: #fff;
 	height: 90px;
 }
 .header-logo {
 	font-size: 36px;
 	float: left;
 	padding: 20px 40px;
+}
+.header-list li {
+	float: left;
+	padding: 33px 20px;
 }
 
 .main {
@@ -24,6 +27,18 @@ li {
 }
 
 .footer {
-	background-color: purple;
-	height: 270px;
+	background-color: #2e5167;
+	color: #fff;
+	height: 120px;
+	padding: 40px;
+}
+.footer-logo {
+	float: left;
+	font-size: 32px;
+}
+.footer-list {
+	float: right;
+}
+.footer-list li {
+	padding-bottom: 20px;
 }
