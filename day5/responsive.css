@@ -1,0 +1,45 @@
+/*for tablets*/
+@media(max-width: 1000px) {
+	.top-wrapper h1 {
+		font-size: 32px;
+	}
+	.heading h2 {
+		font-size: 20px;
+	}
+	.lesson {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+}
+
+/*for smart phones*/
+@media(max-width: 670px) {
+	.menu-icon {
+		display: block;
+	}
+	.header-right {
+		display: none;
+	}
+	.top-wrapper {
+		text-align: left;
+		padding-top: 130px;
+	}
+	.top-wrapper h1 {
+		font-size: 24px;
+	}
+	.top-wrapper p {
+		font-size: 14px;
+	}
+	.btn {
+		width: 100%;
+	}
+	.facebook {
+		margin-bottom: 10px;
+	}
+	.lesson {
+		width: 100%;
+	}
+	footer {
+		text-align: center;
+	}
+}
